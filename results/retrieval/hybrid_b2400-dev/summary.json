@@ -1,0 +1,17 @@
+{
+ "config": "hybrid_b2400",
+ "corpus": "day7",
+ "top_k": 3,
+ "budget": 2400,
+ "max_searches": 3,
+ "method": "hybrid",
+ "hypothesis": "Index-B chunks reach 800 chars, so an 800-char budget keeps ~1 chunk; 2400 keeps all top-3.",
+ "split": "dev",
+ "n": 20,
+ "hit1": "16/20",
+ "hit3": "20/20",
+ "context_hit": "19/20",
+ "avg_context_chars": 1969,
+ "median_ms": 44.150000000000006,
+ "cost_usd": 0.0
+}

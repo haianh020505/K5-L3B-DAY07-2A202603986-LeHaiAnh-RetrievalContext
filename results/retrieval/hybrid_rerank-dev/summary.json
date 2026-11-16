@@ -1,0 +1,17 @@
+{
+ "config": "hybrid_rerank",
+ "corpus": "day7",
+ "top_k": 3,
+ "budget": 2400,
+ "max_searches": 3,
+ "method": "rerank",
+ "hypothesis": "LLM reorders 10 hybrid candidates -> evidence moves into top-1/top-3.",
+ "split": "dev",
+ "n": 20,
+ "hit1": "20/20",
+ "hit3": "20/20",
+ "context_hit": "20/20",
+ "avg_context_chars": 2073,
+ "median_ms": 20894.45,
+ "cost_usd": 0.0
+}

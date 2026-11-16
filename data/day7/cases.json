@@ -1,0 +1,202 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "question": "Which values does bool() convert to False?",
+  "answerable": true
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "question": "How many comparison operators does Python have?",
+  "answerable": true
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "question": "What goes wrong if I write is_zero = num=0 to check whether num is zero?",
+  "answerable": true
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "question": "How many spaces per indentation level does PEP 8 recommend?",
+  "answerable": true
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "question": "Which operator is the exception to left associativity in Python?",
+  "answerable": true
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "question": "Why not just use two separate if statements instead of elif when only one branch should run?",
+  "answerable": true
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "question": "What is another name for a conditional expression?",
+  "answerable": true
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "question": "What precedence does a conditional expression have compared to other operations?",
+  "answerable": true
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "question": "Is the end value included in the sequence produced by range()?",
+  "answerable": true
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "question": "What is a loop that never stops on its own called?",
+  "answerable": true
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "question": "After a continue statement executes, what happens next in the loop?",
+  "answerable": true
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "question": "When is a for loop preferable to a while loop in nested loops?",
+  "answerable": true
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "question": "In this chapter, when does the else statement run?",
+  "answerable": true,
+  "filter": {
+   "chapter": 5
+  }
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "question": "In this chapter, how is nesting indicated?",
+  "answerable": true,
+  "filter": {
+   "chapter": 4
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "question": "In this chapter, what does control flow mean?",
+  "answerable": true,
+  "filter": {
+   "chapter": 6
+  }
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "question": "What is the difference between a function argument and a function parameter?",
+  "answerable": true
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "question": "Why should a list not be used as a default parameter value?",
+  "answerable": true
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "question": "How can code inside a function change the value of a variable defined outside it?",
+  "answerable": true
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "question": "In this chapter, what does the outer one control when one is placed inside another?",
+  "answerable": true,
+  "filter": {
+   "chapter": 5
+  }
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "question": "In this chapter, what is a branch?",
+  "answerable": true,
+  "filter": {
+   "chapter": 4
+  }
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "question": "When an if-else statement runs, how many of its branches get executed?",
+  "answerable": true
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "question": "Under what condition does Python's or operator return True?",
+  "answerable": true
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "question": "What is the name for how much a loop counter changes on each iteration?",
+  "answerable": true
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "question": "Why does putting code into a function promote reusability?",
+  "answerable": true
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "question": "In this chapter, where does execution continue after a function that was called by another function finishes?",
+  "answerable": true,
+  "filter": {
+   "chapter": 6
+  }
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "question": "How do I write a do-while loop in Python so the body runs at least once?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Near chapter 5 (loops). Regex 'do-while|do while' matches 0 of 397 PDF pages and 0 indexed chunks; the book never discusses do-while emulation."
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "question": "How can the walrus operator := be used inside a while loop condition?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Near chapters 4-5 (conditions, while loops). Regex ':=|walrus' matches 0 of 397 PDF pages and 0 indexed chunks."
+ },
+ {
+  "id": "u03",
+  "split": "test",
+  "question": "How do I annotate a function's return type with a type hint?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Near chapter 6 (return values). Regex 'type hint|annotation|-> ?(int|str|float|None)' matches 0 of 397 PDF pages and 0 indexed chunks."
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "question": "How do I apply a decorator to a function to log every call?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Near chapter 6 (functions). Regex 'decorator' matches 0 of 397 PDF pages and 0 indexed chunks."
+ }
+]

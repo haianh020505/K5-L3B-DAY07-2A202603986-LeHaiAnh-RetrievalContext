@@ -1,0 +1,6 @@
+[
+ {"id": "u01", "split": "dev", "question": "How do I write a do-while loop in Python so the body runs at least once?", "answerable": false, "expected_behavior": "search_and_abstain", "absence_reason": "Near chapter 5 (loops). Regex 'do-while|do while' matches 0 of 397 PDF pages and 0 indexed chunks; the book never discusses do-while emulation."},
+ {"id": "u02", "split": "dev", "question": "How can the walrus operator := be used inside a while loop condition?", "answerable": false, "expected_behavior": "search_and_abstain", "absence_reason": "Near chapters 4-5 (conditions, while loops). Regex ':=|walrus' matches 0 of 397 PDF pages and 0 indexed chunks."},
+ {"id": "u03", "split": "test", "question": "How do I annotate a function's return type with a type hint?", "answerable": false, "expected_behavior": "search_and_abstain", "absence_reason": "Near chapter 6 (return values). Regex 'type hint|annotation|-> ?(int|str|float|None)' matches 0 of 397 PDF pages and 0 indexed chunks."},
+ {"id": "u04", "split": "test", "question": "How do I apply a decorator to a function to log every call?", "answerable": false, "expected_behavior": "search_and_abstain", "absence_reason": "Near chapter 6 (functions). Regex 'decorator' matches 0 of 397 PDF pages and 0 indexed chunks."}
+]

@@ -1,0 +1,749 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "question": "When an if-else statement runs, how many of its branches get executed?",
+  "filter": null,
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "answered",
+  "answer": "When an if‑else statement runs, exactly one of its two branches is executed – either the if body or the else body, but not both. [openstax-python-p102-c01]",
+  "citations": [
+   "openstax-python-p102-c01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "if-else statement runs how many branches get executed",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p102-c01",
+      "text": "An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\nif-else statement template:\n1 # Statements before\n2\n3 if condition:\n4 # Body\n5 else:\n6 # Body\n7\n8 # Statements after\nCHECKPOINT\nExample: Trivia question\nExample: Trivia question; ch 4, video 5 (https://www.openstax.org/r/trivia-question)\nCONCEPTS IN PRACTICE\nExploring if-else statements\n6 . Given the following code, the else branch is taken for which range of x?",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 102,
+      "metadata": {
+       "section": "4.2 If-else statements",
+       "char_start": 485,
+       "chapter": 4
+      },
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p100-c01",
+      "text": "4.2 If-else statements\nLearning objectives\nBy the end of this section you should be able to\n• Identify which operations are performed when a program with if and if-else statements is run. • Identify the components of an if and if-else statement and the necessary formatting.\n• Create an if-else statement to perform an operation when a condition is true and another operation otherwise.\nif statement\nIf the weather is rainy, grab an umbrella! People make decisions based on conditions like if the weather is rainy, and programs perform operations based on conditions like a variable's value. Ex: A program adds two numbers. If the result is negative, the program prints an error.",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 100,
+      "metadata": {
+       "chapter": 4,
+       "char_start": 724,
+       "section": "4.2 If-else statements"
+      },
+      "score": 0.029138513513513514,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p113-c00",
+      "text": "# Body 2\nb. if condition_1:\n# Body 1\nelif condition_2:\n# Body 2\nc. elif condition_1:\n# Body 1\nif condition_2:\n# Body 2\n5 . Given attendees = 350, what is the final value of rooms?\nrooms = 1\nif attendees >= 100:\nrooms += 3\nif attendees <= 200:\nrooms += 7\nelif attendees <= 400:\nrooms += 14\na. 4\nb. 15\nc. 18\nif-elif-else statements\nElifs can be chained with an if-else statement to create a more complex decision statement. Ex: A program shows possible chess moves depending on the piece type. If the piece is a pawn, show moving forward one (or two) places. Else if the piece is a bishop, show diagonal moves. Else if . . . (finish for the rest of the pieces). CHECKPOINT\nExample: Possible chess moves\nExample: Possible chess moves; ch 4, video 13 (https://www.openstax.org/r/chess-moves)",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 113,
+      "metadata": {
+       "char_start": 0,
+       "section": "4.5 Chained decisions",
+       "chapter": 4
+      },
+      "score": 0.028205128205128206,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p102-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 102]\nAn else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\nif-else statement template:\n1 # Statements before\n2\n3 if condition:\n4 # Body\n5 else:\n6 # Body\n7\n8 # Statements after\nCHECKPOINT\nExample: Trivia question\nExample: Trivia question; ch 4, video 5 (https://www.openstax.org/r/trivia-question)\nCONCEPTS IN PRACTICE\nExploring if-else statements\n6 . Given the following code, the else branch is taken for which range of x?\n\n[openstax-python-p100-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 100]\n4.2 If-else statements\nLearning objectives\nBy the end of this section you should be able to\n• Identify which operations are performed when a program with if and if-else statements is run. • Identify the components of an if and if-else statement and the necessary formatting.\n• Create an if-else statement to perform an operation when a condition is true and another operation otherwise.\nif statement\nIf the weather is rainy, grab an umbrella! People make decisions based on conditions like if the weather is rainy, and programs perform operations based on conditions like a variable's value. Ex: A program adds two numbers. If the result is negative, the program prints an error.",
+    "context_ids": [
+     "openstax-python-p102-c01",
+     "openstax-python-p100-c01"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_5de59b03-1d65-4ebf-9682-84aa71b59d98",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"if-else statement runs how many branches get executed\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "When an if‑else statement runs, exactly one of its two branches is executed – either the if body or the else body, but not both. [openstax-python-p102-c01]",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 60323,
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "question": "Under what condition does Python's or operator return True?",
+  "filter": null,
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "answered",
+  "answer": "Python’s `or` operator returns **True whenever at least one of its two condition operands is true** (i.e., if either operand is true, the result is true)[openstax-python-p105-c01]",
+  "citations": [
+   "openstax-python-p105-c01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Python or operator return True condition",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p105-c01",
+      "text": "Sometimes a decision only requires one condition to be true. Ex: If a student is in the band or choir, they will perform in the spring concert. The or operator takes two condition operands and returns True if either condition is true.\np q p or q\nTrue True True\nTrue False True\nFalse True True\nFalse False False\nTable 4.2 Truth table: p or q.",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 105,
+      "metadata": {
+       "char_start": 616,
+       "chapter": 4,
+       "section": "4.3 Boolean operations"
+      },
+      "score": 0.03200204813108039,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p104-c01",
+      "text": "4.3 Boolean operations\nLearning objectives\nBy the end of this section you should be able to\n• Explain the purpose of logical operators.\n• Describe the truth tables for and, or, and not.\n• Create expressions with logical operators.\n• Interpret if-else statements with conditions using logical operators.\nLogical operator: and\nDecisions are often based on multiple conditions. Ex: A program printing if a business is open may check that hour >= 9 and hour < 17. A logical operator takes condition operand(s) and produces True or False. Python has three logical operators: and, or, and not. The and operator takes two condition operands and returns True if both conditions are true.\np q p and q\nTrue True True\nTrue False False\nFalse True False\nFalse False False\nTable 4.1 Truth table: p and q.",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 104,
+      "metadata": {
+       "char_start": 421,
+       "section": "4.3 Boolean operations",
+       "chapter": 4
+      },
+      "score": 0.03252247488101534,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p100-c02",
+      "text": "A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed.\nThe if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\nTRY IT\nTRY IT",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 100,
+      "metadata": {
+       "section": "4.2 If-else statements",
+       "chapter": 4,
+       "char_start": 1404
+      },
+      "score": 0.03125,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p105-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 105]\nSometimes a decision only requires one condition to be true. Ex: If a student is in the band or choir, they will perform in the spring concert. The or operator takes two condition operands and returns True if either condition is true.\np q p or q\nTrue True True\nTrue False True\nFalse True True\nFalse False False\nTable 4.2 Truth table: p or q.\n\n[openstax-python-p104-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 104]\n4.3 Boolean operations\nLearning objectives\nBy the end of this section you should be able to\n• Explain the purpose of logical operators.\n• Describe the truth tables for and, or, and not.\n• Create expressions with logical operators.\n• Interpret if-else statements with conditions using logical operators.\nLogical operator: and\nDecisions are often based on multiple conditions. Ex: A program printing if a business is open may check that hour >= 9 and hour < 17. A logical operator takes condition operand(s) and produces True or False. Python has three logical operators: and, or, and not. The and operator takes two condition operands and returns True if both conditions are true.\np q p and q\nTrue True True\nTrue False False\nFalse True False\nFalse False False\nTable 4.1 Truth table: p and q.\n\n[openstax-python-p100-c02 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 100]\nA condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed.\nThe if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\nTRY IT\nTRY IT",
+    "context_ids": [
+     "openstax-python-p105-c01",
+     "openstax-python-p104-c01",
+     "openstax-python-p100-c02"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_5714367e-c708-468b-9eb9-7038a161f0db",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"Python or operator return True condition\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "Python’s `or` operator returns **True whenever at least one of its two condition operands is true** (i.e., if either operand is true, the result is true)【openstax-python-p105-c01】",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 20727,
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "question": "What is the name for how much a loop counter changes on each iteration?",
+  "filter": null,
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "answered",
+  "answer": "The amount by which a loop counter is changed on each iteration is called the **step size**[openstax-python-p127-c00].",
+  "citations": [
+   "openstax-python-p127-c00"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "name for how much a loop counter changes on each iteration",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p127-c00",
+      "text": "determine the number of iterations executed. Ex: A programmer may want to print all even numbers between 1 and 20. The task can be done by using a counter initialized with 1. In each iteration, the counter's value is increased by one, and a condition can check whether the counter's value is an even number or not. The change in the counter's value in each iteration is called the step size. The step size can be any positive or negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size is a negative number, the counter counts in descending order.\nEXAMPLE 5.1\nA program printing all odd numbers between 1 and 10\n# Initialization\ncounter = 1\n# While loop condition\nwhile counter <= 10:\nif counter % 2 == 1:\nprint(counter)",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 127,
+      "metadata": {
+       "section": "5.1 While loop",
+       "chapter": 5,
+       "char_start": 0
+      },
+      "score": 0.03252247488101534,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p127-c01",
+      "text": "# Counting up and increasing counter's value by 1 in each iteration\ncounter += 1\nCHECKPOINT\nCounting with while loop\nCounting with while loop; ch 5, video 2 (https://www.openstax.org/r/counting-with-while-loop) CONCEPTS IN PRACTICE\nwhile loop counting examples\nGiven the code, answer the following questions.\nn = 4\nwhile n > 0:\nprint(n)\nn = n - 1\nprint(\"value of n after the loop is\", n)\n4 . How many times does the loop execute?\na. 3\nb. 4\nc. 5\n5 . Which line is printed as the last line of output?",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 127,
+      "metadata": {
+       "char_start": 779,
+       "section": "5.1 While loop",
+       "chapter": 5
+      },
+      "score": 0.032018442622950824,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p126-c01",
+      "text": "while g < 20:\nprint(g, end = ' ')\n# Calculating the next Fibonacci number and updating the last two sequence numbers\ntemp = f\nf = g\ng = temp + g\n1 . How many times does the loop execute?\na. 5\nb. 6\nc. 7\n2 . What is the variable g's value when the while loop condition evaluates to False?\na. 13\nb. 20\nc. 21\n3 . What are the printed values in the output?\na. 1 1 2 3 5 8 13\nb. 1 2 3 5 8 13\nc. 1 1 2 3 5 8 13 21\nCounting with a while loop\nA while loop can be used to count up or down. A counter variable can be used in the loop expression to",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 126,
+      "metadata": {
+       "char_start": 799,
+       "section": "5.1 While loop",
+       "chapter": 5
+      },
+      "score": 0.028991596638655463,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p127-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 127]\ndetermine the number of iterations executed. Ex: A programmer may want to print all even numbers between 1 and 20. The task can be done by using a counter initialized with 1. In each iteration, the counter's value is increased by one, and a condition can check whether the counter's value is an even number or not. The change in the counter's value in each iteration is called the step size. The step size can be any positive or negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size is a negative number, the counter counts in descending order.\nEXAMPLE 5.1\nA program printing all odd numbers between 1 and 10\n# Initialization\ncounter = 1\n# While loop condition\nwhile counter <= 10:\nif counter % 2 == 1:\nprint(counter)\n\n[openstax-python-p127-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 127]\n# Counting up and increasing counter's value by 1 in each iteration\ncounter += 1\nCHECKPOINT\nCounting with while loop\nCounting with while loop; ch 5, video 2 (https://www.openstax.org/r/counting-with-while-loop) CONCEPTS IN PRACTICE\nwhile loop counting examples\nGiven the code, answer the following questions.\nn = 4\nwhile n > 0:\nprint(n)\nn = n - 1\nprint(\"value of n after the loop is\", n)\n4 . How many times does the loop execute?\na. 3\nb. 4\nc. 5\n5 . Which line is printed as the last line of output?\n\n[openstax-python-p126-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 126]\nwhile g < 20:\nprint(g, end = ' ')\n# Calculating the next Fibonacci number and updating the last two sequence numbers\ntemp = f\nf = g\ng = temp + g\n1 . How many times does the loop execute?\na. 5\nb. 6\nc. 7\n2 . What is the variable g's value when the while loop condition evaluates to False?\na. 13\nb. 20\nc. 21\n3 . What are the printed values in the output?\na. 1 1 2 3 5 8 13\nb. 1 2 3 5 8 13\nc. 1 1 2 3 5 8 13 21\nCounting with a while loop\nA while loop can be used to count up or down. A counter variable can be used in the loop expression to",
+    "context_ids": [
+     "openstax-python-p127-c00",
+     "openstax-python-p127-c01",
+     "openstax-python-p126-c01"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_ded055da-1602-4dd4-b8c6-b656768ce4fa",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"name for how much a loop counter changes on each iteration\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "The amount by which a loop counter is changed on each iteration is called the **step size**【openstax-python-p127-c00】.",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 27432,
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "question": "Why does putting code into a function promote reusability?",
+  "filter": null,
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "answered",
+  "answer": "Putting code into a function groups the statements for a single task into a named, modular block that can be executed repeatedly through multiple calls. Because the same function body can be invoked wherever needed, the code becomes reusable, easier to modify, and can be shared without having to rewrite it each time[openstax-python-p149-c01]",
+  "citations": [
+   "openstax-python-p149-c01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "why putting code into a function promotes reusability",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p149-c01",
+      "text": "c. print_pc_specs():\n7 . Which is an appropriate name for a function that calculates a user's taxes?\na. calc_tax\nb. calculate user tax\nc. c_t\nBenefits of functions\nA function promotes modularity by putting code statements related to a single task in a separate group. The body of a function can be executed repeatedly with multiple function calls, so a function promotes reusability. Modular, reusable code is easier to modify and is shareable among programmers to avoid reinventing the wheel.",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 149,
+      "metadata": {
+       "section": "6.1 Defining functions",
+       "char_start": 781,
+       "chapter": 6
+      },
+      "score": 0.032266458495966696,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p147-c00",
+      "text": "Figure 6.1 credit: modification of work \"IMG_3037\", by Jay Roc/Flickr, Public Domain\nChapter Outline\n6.1 Defining functions\n6.2 Control flow\n6.3 Variable scope\n6.4 Parameters\n6.5 Return values\n6.6 Keyword arguments\n6.7 Chapter summary\nIntroduction\nFunctions are the next step toward creating optimized code as a software developer. If the same block of code is reused repeatedly, a function allows the programmer to write the block of code once, name the block, and use the code as many times as needed by calling the block by name. Functions can read in values and return values to perform tasks, including complex calculations.",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 147,
+      "metadata": {
+       "char_start": 0,
+       "chapter": 6,
+       "section": "6.0 Introduction"
+      },
+      "score": 0.03177805800756621,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p148-c00",
+      "text": "Calling a function\nThroughout the book, functions have been called to perform tasks. Ex: print() prints values, and sqrt() calculates the square root. A function is a named, reusable block of code that performs a task when called. CHECKPOINT\nExample: Simple math program\nExample: Simple math program; ch 6, video 1 (https://www.openstax.org/r/simple-math)\nCONCEPTS IN PRACTICE\nIdentifying function calls\n1 . Which line has a function call?\n1 input_num = 14\n2 offset_num = input_num - 10\n3 print(offset_num)\na. line 1\nb. line 2\nc. line 3\n2 . How many times is print() called?\nprint(\"Please log in\")\nusername = input(\"Username:\")\npassword = input(\"Password:\")\nprint(\"Login successful\")\nprint(\"Welcome,\", username)\na. 1\nb. 3\nc. 5\n3 . How many function calls are there?",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 148,
+      "metadata": {
+       "section": "6.1 Defining functions",
+       "char_start": 0,
+       "chapter": 6
+      },
+      "score": 0.03007688828584351,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p149-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 149]\nc. print_pc_specs():\n7 . Which is an appropriate name for a function that calculates a user's taxes?\na. calc_tax\nb. calculate user tax\nc. c_t\nBenefits of functions\nA function promotes modularity by putting code statements related to a single task in a separate group. The body of a function can be executed repeatedly with multiple function calls, so a function promotes reusability. Modular, reusable code is easier to modify and is shareable among programmers to avoid reinventing the wheel.\n\n[openstax-python-p147-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 147]\nFigure 6.1 credit: modification of work \"IMG_3037\", by Jay Roc/Flickr, Public Domain\nChapter Outline\n6.1 Defining functions\n6.2 Control flow\n6.3 Variable scope\n6.4 Parameters\n6.5 Return values\n6.6 Keyword arguments\n6.7 Chapter summary\nIntroduction\nFunctions are the next step toward creating optimized code as a software developer. If the same block of code is reused repeatedly, a function allows the programmer to write the block of code once, name the block, and use the code as many times as needed by calling the block by name. Functions can read in values and return values to perform tasks, including complex calculations.\n\n[openstax-python-p148-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 148]\nCalling a function\nThroughout the book, functions have been called to perform tasks. Ex: print() prints values, and sqrt() calculates the square root. A function is a named, reusable block of code that performs a task when called. CHECKPOINT\nExample: Simple math program\nExample: Simple math program; ch 6, video 1 (https://www.openstax.org/r/simple-math)\nCONCEPTS IN PRACTICE\nIdentifying function calls\n1 . Which line has a function call?\n1 input_num = 14\n2 offset_num = input_num - 10\n3 print(offset_num)\na. line 1\nb. line 2\nc. line 3\n2 . How many times is print() called?\nprint(\"Please log in\")\nusername = input(\"Username:\")\npassword = input(\"Password:\")\nprint(\"Login successful\")\nprint(\"Welcome,\", username)\na. 1\nb. 3\nc. 5\n3 . How many function calls are there?",
+    "context_ids": [
+     "openstax-python-p149-c01",
+     "openstax-python-p147-c00",
+     "openstax-python-p148-c00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_17713fac-e627-44e5-b53c-c7abdf68a288",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"why putting code into a function promotes reusability\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "Putting code into a function groups the statements for a single task into a named, modular block that can be executed repeatedly through multiple calls. Because the same function body can be invoked wherever needed, the code becomes reusable, easier to modify, and can be shared without having to rewrite it each time【openstax-python-p149-c01】",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 28963,
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "question": "In this chapter, where does execution continue after a function that was called by another function finishes?",
+  "filter": {
+   "chapter": 6
+  },
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "answered",
+  "answer": "Execution returns to the calling function and continues with the statements that follow the function call. [openstax-python-p151-c01] [openstax-python-p153-c00]",
+  "citations": [
+   "openstax-python-p151-c01",
+   "openstax-python-p153-c00"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "execution continue after a function that was called by another function finishes chapter where does execution continue after a function that was called by another function finishes",
+    "filter": {
+     "chapter": 6
+    },
+    "results": [
+     {
+      "id": "openstax-python-p151-c01",
+      "text": "6.2 Control flow\nLearning objectives\nBy the end of this section you should be able to\n• Identify the control flow of a program.\n• Describe how control flow moves between statements and function calls.\nControl flow and functions\nControl flow is the sequence of program execution. A program's control flow begins at the main program but rarely follows a strict sequence. Ex: Control flow skips over lines when a conditional statement isn't executed. When execution reaches a function call, control flow moves to where the function is defined and executes the function statements. Then, control flow moves back to where the function was called and continues the sequence.\nCHECKPOINT\nCalling a brunch menu function\nCalling a brunch menu function; ch 6, video 4 (https://www.openstax.org/r/brunch-menu)",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 151,
+      "metadata": {
+       "char_start": 622,
+       "section": "6.2 Control flow",
+       "chapter": 6
+      },
+      "score": 0.03200204813108039,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p153-c00",
+      "text": "b. 8\nc. 12\n4 . What is the output?\ndef park_greet():\n\"\"\"Output greeting.\"\"\"\nprint(\"Welcome to the park\")\nprint(\"Open sunrise to sunset\")\npark_greet()\na. Welcome to the park\nb. Welcome to the park\nOpen sunrise to sunset\nc. Open sunrise to sunset\nWelcome to the park\nFunctions calling functions\nFunctions frequently call other functions to keep the modularity of each function performing one task. Ex: A function that calculates an order total may call a function that calculates sales tax. When a function called from another function finishes execution, control flow returns to the calling function.\nCHECKPOINT\nExample: Book club email messages\nExample: Book club email messages; ch 6, video 5 (https://www.openstax.org/r/email-messages) CONCEPTS IN PRACTICE\nFunctions calling functions",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 153,
+      "metadata": {
+       "chapter": 6,
+       "section": "6.2 Control flow",
+       "char_start": 0
+      },
+      "score": 0.031544957774465976,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p152-c00",
+      "text": "CONCEPTS IN PRACTICE\nFollowing the control flow\n1 . Which line is executed first?\n1 def park_greet():\n2 \"\"\"Output greeting.\"\"\"\n3 print(\"Welcome. Open sunrise to sunset.\")\n4\n5 car_count = 1\n6 park_greet()\n7 if car_count > 50:\n8 # Direct to extra parking lot\na. 1\nb. 3\nc. 5\n2 . Control flow moves to line 9, and park_greet() is called. Which line does control flow move to next? 1 def extra_lot():\n2 # Function definition\n3\n4 def park_greet():\n5 \"\"\"Output greeting.\"\"\"\n6 print(\"Welcome. Open sunrise to sunset.\")\n7\n8 car_count = 1\n9 park_greet()\n10 if car_count > 50:\n11 extra_lot()\na. 1\nb. 4\nc. 10\n3 . Control flow moves to line 12, and extra_lot() is called. Which line does control flow move to after line 3 is executed?\n1 def extra_lot():\n2 \"\"\"Output extra parking lot info.\"\"\"",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 152,
+      "metadata": {
+       "chapter": 6,
+       "char_start": 0,
+       "section": "6.2 Control flow"
+      },
+      "score": 0.028577260665441927,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p151-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 151]\n6.2 Control flow\nLearning objectives\nBy the end of this section you should be able to\n• Identify the control flow of a program.\n• Describe how control flow moves between statements and function calls.\nControl flow and functions\nControl flow is the sequence of program execution. A program's control flow begins at the main program but rarely follows a strict sequence. Ex: Control flow skips over lines when a conditional statement isn't executed. When execution reaches a function call, control flow moves to where the function is defined and executes the function statements. Then, control flow moves back to where the function was called and continues the sequence.\nCHECKPOINT\nCalling a brunch menu function\nCalling a brunch menu function; ch 6, video 4 (https://www.openstax.org/r/brunch-menu)\n\n[openstax-python-p153-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 153]\nb. 8\nc. 12\n4 . What is the output?\ndef park_greet():\n\"\"\"Output greeting.\"\"\"\nprint(\"Welcome to the park\")\nprint(\"Open sunrise to sunset\")\npark_greet()\na. Welcome to the park\nb. Welcome to the park\nOpen sunrise to sunset\nc. Open sunrise to sunset\nWelcome to the park\nFunctions calling functions\nFunctions frequently call other functions to keep the modularity of each function performing one task. Ex: A function that calculates an order total may call a function that calculates sales tax. When a function called from another function finishes execution, control flow returns to the calling function.\nCHECKPOINT\nExample: Book club email messages\nExample: Book club email messages; ch 6, video 5 (https://www.openstax.org/r/email-messages) CONCEPTS IN PRACTICE\nFunctions calling functions",
+    "context_ids": [
+     "openstax-python-p151-c01",
+     "openstax-python-p153-c00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "n_searches": 1,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_98c199a1-9086-4857-b93d-378642b1c833",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"execution continue after a function that was called by another function finishes chapter where does execution continue after a function that was called by another function finishes\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "Execution returns to the calling function and continues with the statements that follow the function call. [openstax-python-p151-c01] [openstax-python-p153-c00]",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 28141,
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "question": "How do I annotate a function's return type with a type hint?",
+  "filter": null,
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "annotate function return type type hint",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p164-c02",
+      "text": "6.5 Return values\nLearning objectives\nBy the end of this section you should be able to\n• Identify a function's return value.\n• Employ return statements in functions to return values.\nReturning from a function\nWhen a function finishes, the function returns and provides a result to the calling code. A return statement TRY IT",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 164,
+      "metadata": {
+       "section": "6.5 Return values",
+       "chapter": 6,
+       "char_start": 810
+      },
+      "score": 0.030330882352941176,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p165-c00",
+      "text": "finishes the function execution and can specify a value to return to the function's caller. Functions introduced so far have not had a return statement, which is the same as returning None, representing no value. CHECKPOINT\nReturning a value from a function\nReturning a value from a function; ch 6, video 11 (https://www.openstax.org/r/returning-value-from- function)\nCONCEPTS IN PRACTICE\nUsing return statements\n1 . What is returned by calc_mpg(miles, gallons)?\ndef calc_mpg(miles, gallons):\nmpg = miles/gallons\nreturn mpg\na. mpg\nb. None\nc. Error\n2 . What is returned by calc_sqft()?\ndef calc_sqft(length, width):\nsqft = length * width\nreturn\na. sqft\nb. None\nc. Error\n3 . What is the difference between hw_1() and hw_2()?\ndef hw_1():\nprint(\"Hello world!\")\nreturn\ndef hw_2():\nprint(\"Hello world!\")",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 165,
+      "metadata": {
+       "char_start": 0,
+       "section": "6.5 Return values",
+       "chapter": 6
+      },
+      "score": 0.029850746268656716,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p165-c01",
+      "text": "a. hw_1() returns a string, hw_2() does not\nb. hw_1() returns None, hw_2() does not\nc. no difference\nUsing multiple return statements\nFunctions that have multiple execution paths may use multiple return statements. Ex: A function with an if-else statement may have two return statements for each branch. Return statements always end the",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 165,
+      "metadata": {
+       "char_start": 798,
+       "section": "6.5 Return values",
+       "chapter": 6
+      },
+      "score": 0.02819138376017471,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p164-c02 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 164]\n6.5 Return values\nLearning objectives\nBy the end of this section you should be able to\n• Identify a function's return value.\n• Employ return statements in functions to return values.\nReturning from a function\nWhen a function finishes, the function returns and provides a result to the calling code. A return statement TRY IT\n\n[openstax-python-p165-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 165]\nfinishes the function execution and can specify a value to return to the function's caller. Functions introduced so far have not had a return statement, which is the same as returning None, representing no value. CHECKPOINT\nReturning a value from a function\nReturning a value from a function; ch 6, video 11 (https://www.openstax.org/r/returning-value-from- function)\nCONCEPTS IN PRACTICE\nUsing return statements\n1 . What is returned by calc_mpg(miles, gallons)?\ndef calc_mpg(miles, gallons):\nmpg = miles/gallons\nreturn mpg\na. mpg\nb. None\nc. Error\n2 . What is returned by calc_sqft()?\ndef calc_sqft(length, width):\nsqft = length * width\nreturn\na. sqft\nb. None\nc. Error\n3 . What is the difference between hw_1() and hw_2()?\ndef hw_1():\nprint(\"Hello world!\")\nreturn\ndef hw_2():\nprint(\"Hello world!\")\n\n[openstax-python-p165-c01 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 165]\na. hw_1() returns a string, hw_2() does not\nb. hw_1() returns None, hw_2() does not\nc. no difference\nUsing multiple return statements\nFunctions that have multiple execution paths may use multiple return statements. Ex: A function with an if-else statement may have two return statements for each branch. Return statements always end the",
+    "context_ids": [
+     "openstax-python-p164-c02",
+     "openstax-python-p165-c00",
+     "openstax-python-p165-c01"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "n_searches": 1,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_77702b49-e88d-4b79-aa2e-830aac3e7fa5",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"annotate function return type type hint\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "Không đủ bằng chứng để trả lời.",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 25287,
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "question": "How do I apply a decorator to a function to log every call?",
+  "filter": null,
+  "model": "groq/openai/gpt-oss-120b",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "decorator log every call function python",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p167-c00",
+      "text": "def inc_volume(level, max):\nif level < max:\nreturn level\nlevel += 1\nelse:\nreturn level\nvol1 = inc_volume(9, 10)\nprint(vol1)\nvol2 = inc_volume(10, 10)\nprint(vol2)\na. 9\n10\nb. 10\n10\nc. 10\n11\nUsing functions as values\nFunctions are objects that evaluate to values, so function calls can be used in expressions. A function call can be combined with other function calls, variables, and literals as long as the return value is compatible with the operation.\nCHECKPOINT\nUsing function calls in expressions\nUsing function calls in expression; ch 6, video 12 (https://www.openstax.org/r/function-calls-in-expressions) CONCEPTS IN PRACTICE\nUsing function values\n6 . What is the updated value of bill?\ndef tax(total):\nreturn .06 * total\ndef auto_tip(total):\nreturn .2 * total\nbill = 100.0",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 167,
+      "metadata": {
+       "chapter": 6,
+       "char_start": 0,
+       "section": "6.5 Return values"
+      },
+      "score": 0.02761904761904762,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p148-c00",
+      "text": "Calling a function\nThroughout the book, functions have been called to perform tasks. Ex: print() prints values, and sqrt() calculates the square root. A function is a named, reusable block of code that performs a task when called. CHECKPOINT\nExample: Simple math program\nExample: Simple math program; ch 6, video 1 (https://www.openstax.org/r/simple-math)\nCONCEPTS IN PRACTICE\nIdentifying function calls\n1 . Which line has a function call?\n1 input_num = 14\n2 offset_num = input_num - 10\n3 print(offset_num)\na. line 1\nb. line 2\nc. line 3\n2 . How many times is print() called?\nprint(\"Please log in\")\nusername = input(\"Username:\")\npassword = input(\"Password:\")\nprint(\"Login successful\")\nprint(\"Welcome,\", username)\na. 1\nb. 3\nc. 5\n3 . How many function calls are there?",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 148,
+      "metadata": {
+       "char_start": 0,
+       "chapter": 6,
+       "section": "6.1 Defining functions"
+      },
+      "score": 0.03177805800756621,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p149-c00",
+      "text": "be defined before the function is called.\nCHECKPOINT\nExample: Welcome message function\nExample: Welcome message function; ch 6, video 2 (https://www.openstax.org/r/welcome-message) CONCEPTS IN PRACTICE\nDefining functions\n4 . What's wrong with the first line of the function definition?\ndef water_plant:\na. A docstring should go after the colon.\nb. Parentheses should go after water_plant.\nc. def should be define before water_plant.\n5 . What is the output?\ndef print_phone_num():\nprint(\"Phone: (\", 864, \")\", 555, \"-\", 0199)\nprint(\"User info:\")\nprint_phone_num()\na. Phone: ( 864 ) 555 - 1000\nUser info:\nPhone: ( 864 ) 555 - 1000\nb. User info:\nc. User info:\nPhone: ( 864 ) 555 - 1000\n6 . Which statement calls a function named print_pc_specs()?\na. print_pc_specs\nb. print_pc_specs()",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 149,
+      "metadata": {
+       "section": "6.1 Defining functions",
+       "chapter": 6,
+       "char_start": 0
+      },
+      "score": 0.01639344262295082,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p167-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 167]\ndef inc_volume(level, max):\nif level < max:\nreturn level\nlevel += 1\nelse:\nreturn level\nvol1 = inc_volume(9, 10)\nprint(vol1)\nvol2 = inc_volume(10, 10)\nprint(vol2)\na. 9\n10\nb. 10\n10\nc. 10\n11\nUsing functions as values\nFunctions are objects that evaluate to values, so function calls can be used in expressions. A function call can be combined with other function calls, variables, and literals as long as the return value is compatible with the operation.\nCHECKPOINT\nUsing function calls in expressions\nUsing function calls in expression; ch 6, video 12 (https://www.openstax.org/r/function-calls-in-expressions) CONCEPTS IN PRACTICE\nUsing function values\n6 . What is the updated value of bill?\ndef tax(total):\nreturn .06 * total\ndef auto_tip(total):\nreturn .2 * total\nbill = 100.0\n\n[openstax-python-p148-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 148]\nCalling a function\nThroughout the book, functions have been called to perform tasks. Ex: print() prints values, and sqrt() calculates the square root. A function is a named, reusable block of code that performs a task when called. CHECKPOINT\nExample: Simple math program\nExample: Simple math program; ch 6, video 1 (https://www.openstax.org/r/simple-math)\nCONCEPTS IN PRACTICE\nIdentifying function calls\n1 . Which line has a function call?\n1 input_num = 14\n2 offset_num = input_num - 10\n3 print(offset_num)\na. line 1\nb. line 2\nc. line 3\n2 . How many times is print() called?\nprint(\"Please log in\")\nusername = input(\"Username:\")\npassword = input(\"Password:\")\nprint(\"Login successful\")\nprint(\"Welcome,\", username)\na. 1\nb. 3\nc. 5\n3 . How many function calls are there?",
+    "context_ids": [
+     "openstax-python-p167-c00",
+     "openstax-python-p148-c00"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "decorator log every call python",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-python-p148-c00",
+      "text": "Calling a function\nThroughout the book, functions have been called to perform tasks. Ex: print() prints values, and sqrt() calculates the square root. A function is a named, reusable block of code that performs a task when called. CHECKPOINT\nExample: Simple math program\nExample: Simple math program; ch 6, video 1 (https://www.openstax.org/r/simple-math)\nCONCEPTS IN PRACTICE\nIdentifying function calls\n1 . Which line has a function call?\n1 input_num = 14\n2 offset_num = input_num - 10\n3 print(offset_num)\na. line 1\nb. line 2\nc. line 3\n2 . How many times is print() called?\nprint(\"Please log in\")\nusername = input(\"Username:\")\npassword = input(\"Password:\")\nprint(\"Login successful\")\nprint(\"Welcome,\", username)\na. 1\nb. 3\nc. 5\n3 . How many function calls are there?",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 148,
+      "metadata": {
+       "chapter": 6,
+       "char_start": 0,
+       "section": "6.1 Defining functions"
+      },
+      "score": 0.03177805800756621,
+      "rank": 1,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p153-c00",
+      "text": "b. 8\nc. 12\n4 . What is the output?\ndef park_greet():\n\"\"\"Output greeting.\"\"\"\nprint(\"Welcome to the park\")\nprint(\"Open sunrise to sunset\")\npark_greet()\na. Welcome to the park\nb. Welcome to the park\nOpen sunrise to sunset\nc. Open sunrise to sunset\nWelcome to the park\nFunctions calling functions\nFunctions frequently call other functions to keep the modularity of each function performing one task. Ex: A function that calculates an order total may call a function that calculates sales tax. When a function called from another function finishes execution, control flow returns to the calling function.\nCHECKPOINT\nExample: Book club email messages\nExample: Book club email messages; ch 6, video 5 (https://www.openstax.org/r/email-messages) CONCEPTS IN PRACTICE\nFunctions calling functions",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 153,
+      "metadata": {
+       "char_start": 0,
+       "section": "6.2 Control flow",
+       "chapter": 6
+      },
+      "score": 0.029910714285714284,
+      "rank": 2,
+      "strategy": "rerank"
+     },
+     {
+      "id": "openstax-python-p149-c00",
+      "text": "be defined before the function is called.\nCHECKPOINT\nExample: Welcome message function\nExample: Welcome message function; ch 6, video 2 (https://www.openstax.org/r/welcome-message) CONCEPTS IN PRACTICE\nDefining functions\n4 . What's wrong with the first line of the function definition?\ndef water_plant:\na. A docstring should go after the colon.\nb. Parentheses should go after water_plant.\nc. def should be define before water_plant.\n5 . What is the output?\ndef print_phone_num():\nprint(\"Phone: (\", 864, \")\", 555, \"-\", 0199)\nprint(\"User info:\")\nprint_phone_num()\na. Phone: ( 864 ) 555 - 1000\nUser info:\nPhone: ( 864 ) 555 - 1000\nb. User info:\nc. User info:\nPhone: ( 864 ) 555 - 1000\n6 . Which statement calls a function named print_pc_specs()?\na. print_pc_specs\nb. print_pc_specs()",
+      "source_id": "openstax-python",
+      "source": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "page": 149,
+      "metadata": {
+       "char_start": 0,
+       "section": "6.1 Defining functions",
+       "chapter": 6
+      },
+      "score": 0.016129032258064516,
+      "rank": 3,
+      "strategy": "rerank"
+     }
+    ],
+    "context": "[openstax-python-p167-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 167]\ndef inc_volume(level, max):\nif level < max:\nreturn level\nlevel += 1\nelse:\nreturn level\nvol1 = inc_volume(9, 10)\nprint(vol1)\nvol2 = inc_volume(10, 10)\nprint(vol2)\na. 9\n10\nb. 10\n10\nc. 10\n11\nUsing functions as values\nFunctions are objects that evaluate to values, so function calls can be used in expressions. A function call can be combined with other function calls, variables, and literals as long as the return value is compatible with the operation.\nCHECKPOINT\nUsing function calls in expressions\nUsing function calls in expression; ch 6, video 12 (https://www.openstax.org/r/function-calls-in-expressions) CONCEPTS IN PRACTICE\nUsing function values\n6 . What is the updated value of bill?\ndef tax(total):\nreturn .06 * total\ndef auto_tip(total):\nreturn .2 * total\nbill = 100.0\n\n[openstax-python-p148-c00 | starter/data/Introduction_to_Python_Programming-WEB.pdf | page 148]\nCalling a function\nThroughout the book, functions have been called to perform tasks. Ex: print() prints values, and sqrt() calculates the square root. A function is a named, reusable block of code that performs a task when called. CHECKPOINT\nExample: Simple math program\nExample: Simple math program; ch 6, video 1 (https://www.openstax.org/r/simple-math)\nCONCEPTS IN PRACTICE\nIdentifying function calls\n1 . Which line has a function call?\n1 input_num = 14\n2 offset_num = input_num - 10\n3 print(offset_num)\na. line 1\nb. line 2\nc. line 3\n2 . How many times is print() called?\nprint(\"Please log in\")\nusername = input(\"Username:\")\npassword = input(\"Password:\")\nprint(\"Login successful\")\nprint(\"Welcome,\", username)\na. 1\nb. 3\nc. 5\n3 . How many function calls are there?",
+    "context_ids": [
+     "openstax-python-p167-c00",
+     "openstax-python-p148-c00"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "n_searches": 2,
+  "decisions": [
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_1dd81d08-8f5b-455b-ab5d-4ad82b94b9cd",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"decorator log every call function python\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": null,
+    "tool_calls": [
+     {
+      "id": "fc_81a4ccb5-5b9f-4b05-b427-55bf9378e46a",
+      "type": "function",
+      "function": {
+       "name": "search_documents",
+       "arguments": "{\"query\":\"decorator log every call python\"}"
+      }
+     }
+    ]
+   },
+   {
+    "content": "Không đủ bằng chứng để trả lời.",
+    "tool_calls": null
+   }
+  ],
+  "elapsed_ms": 45776,
+  "cost_usd": 1.2e-07
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "query_id": "t01",
+  "answer_grade": 0,
+  "citation_support": [],
+  "note": "false abstention; budget 800 kept chunk without evidence"
+ },
+ {
+  "query_id": "t02",
+  "answer_grade": 0,
+  "citation_support": [],
+  "note": "false abstention"
+ },
+ {
+  "query_id": "t03",
+  "answer_grade": 0,
+  "citation_support": [],
+  "note": "false abstention"
+ },
+ {
+  "query_id": "t04",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "p147 chapter intro: write once, call by name many times (not gold page but supports)"
+ },
+ {
+  "query_id": "t05",
+  "answer_grade": 0,
+  "citation_support": [],
+  "note": "false abstention"
+ },
+ {
+  "query_id": "u03",
+  "abstention_correct": true,
+  "note": "correct abstain",
+  "citation_support": []
+ },
+ {
+  "query_id": "u04",
+  "abstention_correct": true,
+  "note": "correct abstain",
+  "citation_support": []
+ }
+]

@@ -1,0 +1,187 @@
+[
+ {
+  "query_id": "t01",
+  "question": "When an if-else statement runs, how many of its branches get executed?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p111-c01",
+    "page": 111,
+    "score": 0.565793,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p102-c01",
+    "page": 102,
+    "score": 0.534804,
+    "hit": true
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p100-c01",
+    "page": 100,
+    "score": 0.511117,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p111-c01"
+  ],
+  "context_chars": 334,
+  "elapsed_ms": 1408.9,
+  "cost_usd": 3.2e-07,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "t02",
+  "question": "Under what condition does Python's or operator return True?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p105-c01",
+    "page": 105,
+    "score": 0.531726,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p104-c01",
+    "page": 104,
+    "score": 0.518894,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p106-c01",
+    "page": 106,
+    "score": 0.505534,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p105-c01"
+  ],
+  "context_chars": 437,
+  "elapsed_ms": 1143.0,
+  "cost_usd": 2.2e-07,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t03",
+  "question": "What is the name for how much a loop counter changes on each iteration?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p125-c00",
+    "page": 125,
+    "score": 0.524462,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p127-c00",
+    "page": 127,
+    "score": 0.512731,
+    "hit": true
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p139-c00",
+    "page": 139,
+    "score": 0.495189,
+    "hit": false
+   }
+  ],
+  "context_ids": [],
+  "context_chars": 0,
+  "elapsed_ms": 1108.0,
+  "cost_usd": 3e-07,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "t04",
+  "question": "Why does putting code into a function promote reusability?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p147-c00",
+    "page": 147,
+    "score": 0.480814,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p116-c02",
+    "page": 116,
+    "score": 0.457548,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p147-c01",
+    "page": 147,
+    "score": 0.407328,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p147-c00"
+  ],
+  "context_chars": 725,
+  "elapsed_ms": 1170.5,
+  "cost_usd": 2.4000000000000003e-07,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "t05",
+  "question": "In this chapter, where does execution continue after a function that was called by another function finishes?",
+  "filter": {
+   "chapter": 6
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p147-c01",
+    "page": 147,
+    "score": 0.488326,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p165-c00",
+    "page": 165,
+    "score": 0.477888,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p151-c01",
+    "page": 151,
+    "score": 0.46592,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p147-c01"
+  ],
+  "context_chars": 544,
+  "elapsed_ms": 1952.2,
+  "cost_usd": 3.7999999999999996e-07,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ }
+]

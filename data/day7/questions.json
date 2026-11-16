@@ -1,0 +1,350 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "question": "Which values does bool() convert to False?",
+  "expected_answer": "0 and the empty string",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 97,
+    "evidence": "False: 0, empty string"
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "question": "How many comparison operators does Python have?",
+  "expected_answer": "Six: ==, !=, >, <, >=, <=",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 98,
+    "evidence": "The 6 comparison operators:"
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "question": "What goes wrong if I write is_zero = num=0 to check whether num is zero?",
+  "expected_answer": "It assigns 0 to both is_zero and num; = is assignment, == is comparison",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 99,
+    "evidence": "is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value."
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "question": "How many spaces per indentation level does PEP 8 recommend?",
+  "expected_answer": "Four spaces",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 100,
+    "evidence": "The PEP 8 style guide recommends four spaces per indentation level."
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "question": "Which operator is the exception to left associativity in Python?",
+  "expected_answer": "Exponentiation (**) is right associative",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 109,
+    "evidence": "Exponentiation is the main exception (noted above) and is right associative"
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "question": "Why not just use two separate if statements instead of elif when only one branch should run?",
+  "expected_answer": "Separate ifs do not guarantee only one branch runs; both may execute",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 111,
+    "evidence": "Two separate if statements do not guarantee that only one branch is taken and might result in both branches being taken."
+   }
+  ]
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "question": "What is another name for a conditional expression?",
+  "expected_answer": "Ternary operator",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 119,
+    "evidence": "also known as a \"ternary operator\""
+   }
+  ]
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "question": "What precedence does a conditional expression have compared to other operations?",
+  "expected_answer": "The lowest precedence of all Python operations",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 119,
+    "evidence": "Conditional expressions have the lowest precedence of all Python operations."
+   }
+  ]
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "question": "Is the end value included in the sequence produced by range()?",
+  "expected_answer": "No; inclusive of start, exclusive of end",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 130,
+    "evidence": "This integer sequence is inclusive of the start and exclusive of the end of the sequence."
+   }
+  ]
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "question": "What is a loop that never stops on its own called?",
+  "expected_answer": "An infinite loop (a loop without a termination condition)",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 138,
+    "evidence": "A loop without a termination condition is known as an infinite loop."
+   }
+  ]
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "question": "After a continue statement executes, what happens next in the loop?",
+  "expected_answer": "The loop expression is evaluated again and the loop continues from it",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 139,
+    "evidence": "After the continue statement's execution, the loop expression will be evaluated again"
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "question": "When is a for loop preferable to a while loop in nested loops?",
+  "expected_answer": "When counting with range() or iterating over a container object",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 135,
+    "evidence": "A for loop is a preferable option in cases where a loop is used for counting purposes using a range() function"
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "question": "In this chapter, when does the else statement run?",
+  "expected_answer": "After the loop finishes without being interrupted by a break",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 140,
+    "evidence": "A loop else statement runs after the loop's execution is completed without being interrupted by a break"
+   },
+   {
+    "source_id": "openstax-python",
+    "page": 141,
+    "evidence": "A loop else is used to identify if the loop is terminated normally or the execution is interrupted by a break statement."
+   }
+  ],
+  "filter": {
+   "chapter": 5
+  }
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "question": "In this chapter, how is nesting indicated?",
+  "expected_answer": "By an indentation level (a decision statement inside another decision statement)",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 116,
+    "evidence": "Nesting allows a decision statement to be inside another decision statement, and is indicated by an indentation level."
+   }
+  ],
+  "filter": {
+   "chapter": 4
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "question": "In this chapter, what does control flow mean?",
+  "expected_answer": "The sequence of program execution",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 151,
+    "evidence": "Control flow is the sequence of program execution."
+   }
+  ],
+  "filter": {
+   "chapter": 6
+  }
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "question": "What is the difference between a function argument and a function parameter?",
+  "expected_answer": "An argument is the value passed in a call; a parameter is the variable for that input in the definition",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 160,
+    "evidence": "A function argument is a value passed as input during a function call. A function parameter is a variable representing the input in the function definition."
+   }
+  ]
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "question": "Why should a list not be used as a default parameter value?",
+  "expected_answer": "Default values are defined only once, so mutable objects like lists should not be defaults",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 170,
+    "evidence": "Default parameter values are only defined once to be used by the function, so mutable objects (such as lists) should not be used as default values."
+   }
+  ]
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "question": "How can code inside a function change the value of a variable defined outside it?",
+  "expected_answer": "Declare it with the global keyword inside the function",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 157,
+    "evidence": "To edit a global variable inside a function, the variable must be declared with the global keyword."
+   }
+  ]
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "question": "In this chapter, what does the outer one control when one is placed inside another?",
+  "expected_answer": "The outer loop controls how many times the inner loop fully executes",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 132,
+    "evidence": "The outer loop controls the number of the inner loop's full execution."
+   }
+  ],
+  "filter": {
+   "chapter": 5
+  }
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "question": "In this chapter, what is a branch?",
+  "expected_answer": "A group of statements that execute based on a condition",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 95,
+    "evidence": "A branch is a group of statements that execute based on a condition."
+   }
+  ],
+  "filter": {
+   "chapter": 4
+  }
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "question": "When an if-else statement runs, how many of its branches get executed?",
+  "expected_answer": "One and only one of the branches (either the if body or the else body)",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 102,
+    "evidence": "one and only one of the branches is taken"
+   }
+  ]
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "question": "Under what condition does Python's or operator return True?",
+  "expected_answer": "When either of its two condition operands is true",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 105,
+    "evidence": "The or operator takes two condition operands and returns True if either condition is true."
+   }
+  ]
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "question": "What is the name for how much a loop counter changes on each iteration?",
+  "expected_answer": "The step size",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 127,
+    "evidence": "The change in the counter's value in each iteration is called the step size."
+   }
+  ]
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "question": "Why does putting code into a function promote reusability?",
+  "expected_answer": "Because the function body can be executed repeatedly with multiple function calls",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 149,
+    "evidence": "The body of a function can be executed repeatedly with multiple function calls, so a function promotes reusability."
+   }
+  ]
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "question": "In this chapter, where does execution continue after a function that was called by another function finishes?",
+  "expected_answer": "Control flow returns to the calling function",
+  "gold": [
+   {
+    "source_id": "openstax-python",
+    "page": 153,
+    "evidence": "When a function called from another function finishes execution, control flow returns to the calling function."
+   }
+  ],
+  "filter": {
+   "chapter": 6
+  }
+ }
+]

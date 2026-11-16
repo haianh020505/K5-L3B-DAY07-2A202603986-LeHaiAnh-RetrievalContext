@@ -1,0 +1,198 @@
+[
+ {
+  "query_id": "t01",
+  "question": "When an if-else statement runs, how many of its branches get executed?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p102-c01",
+    "page": 102,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p100-c01",
+    "page": 100,
+    "score": 0.031024531024531024,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p111-c01",
+    "page": 111,
+    "score": 0.032018442622950824,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p102-c01",
+   "openstax-python-p100-c01",
+   "openstax-python-p111-c01"
+  ],
+  "context_chars": 1970,
+  "elapsed_ms": 5774.1,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t02",
+  "question": "Under what condition does Python's or operator return True?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p105-c01",
+    "page": 105,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p108-c01",
+    "page": 108,
+    "score": 0.02684684684684685,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p104-c01",
+    "page": 104,
+    "score": 0.03252247488101534,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p105-c01",
+   "openstax-python-p108-c01",
+   "openstax-python-p104-c01"
+  ],
+  "context_chars": 1821,
+  "elapsed_ms": 17313.4,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t03",
+  "question": "What is the name for how much a loop counter changes on each iteration?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p127-c00",
+    "page": 127,
+    "score": 0.03225806451612903,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p127-c01",
+    "page": 127,
+    "score": 0.03177805800756621,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p126-c01",
+    "page": 126,
+    "score": 0.029437229437229435,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p127-c00",
+   "openstax-python-p127-c01",
+   "openstax-python-p126-c01"
+  ],
+  "context_chars": 2104,
+  "elapsed_ms": 19057.1,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t04",
+  "question": "Why does putting code into a function promote reusability?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p149-c01",
+    "page": 149,
+    "score": 0.031544957774465976,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p147-c00",
+    "page": 147,
+    "score": 0.03028233151183971,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p148-c00",
+    "page": 148,
+    "score": 0.028438886647841874,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p149-c01",
+   "openstax-python-p147-c00",
+   "openstax-python-p148-c00"
+  ],
+  "context_chars": 2179,
+  "elapsed_ms": 13472.4,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t05",
+  "question": "In this chapter, where does execution continue after a function that was called by another function finishes?",
+  "filter": {
+   "chapter": 6
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p153-c00",
+    "page": 153,
+    "score": 0.03057889822595705,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p151-c01",
+    "page": 151,
+    "score": 0.032266458495966696,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p152-c00",
+    "page": 152,
+    "score": 0.028814262023217248,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p153-c00",
+   "openstax-python-p151-c01"
+  ],
+  "context_chars": 1777,
+  "elapsed_ms": 18317.4,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ }
+]

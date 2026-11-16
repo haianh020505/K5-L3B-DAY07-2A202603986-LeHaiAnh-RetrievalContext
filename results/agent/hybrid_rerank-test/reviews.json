@@ -1,0 +1,55 @@
+[
+ {
+  "query_id": "t01",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "p102 says one and only one branch runs"
+ },
+ {
+  "query_id": "t02",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "p105: or is true when either operand is true"
+ },
+ {
+  "query_id": "t03",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "p127 names it step size"
+ },
+ {
+  "query_id": "t04",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "p149: body executed repeatedly -> reusability"
+ },
+ {
+  "query_id": "t05",
+  "answer_grade": 2,
+  "citation_support": [
+   false,
+   true
+  ],
+  "note": "p151-c01 only learning objectives, no return statement; p153-c00 states control returns to caller"
+ },
+ {
+  "query_id": "u03",
+  "abstention_correct": true,
+  "note": "type hints not in corpus",
+  "citation_support": []
+ },
+ {
+  "query_id": "u04",
+  "abstention_correct": true,
+  "note": "decorators not in corpus",
+  "citation_support": []
+ }
+]

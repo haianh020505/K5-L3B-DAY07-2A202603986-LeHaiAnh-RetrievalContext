@@ -9,3 +9,20 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+chroma_db/
+bonus/data/*.pdf
+bonus/data/pages/
+.superpowers/
+bonus/data/pages.jsonl
+bonus/data/chunks.json
+
+# Supporting files not submitted: unfinished bonus, duplicate pre-fix dev traces, debug/cache/logs
+bonus/
+src/bonus_index.py
+tests/test_bonus_index.py
+results/agent/hybrid_b2400-dev/
+results/agent/hybrid_rerank-dev/
+results/agent/**/smoke_traces.json
+*.partial.json
+results/query_embeddings.json
+results/logs/

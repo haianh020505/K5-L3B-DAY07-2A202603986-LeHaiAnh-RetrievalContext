@@ -1,0 +1,789 @@
+[
+ {
+  "query_id": "q01",
+  "question": "Which values does bool() convert to False?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p097-c00",
+    "page": 97,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p097-c01",
+    "page": 97,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p096-c00",
+    "page": 96,
+    "score": 0.03149801587301587,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p097-c00",
+   "openstax-python-p097-c01",
+   "openstax-python-p096-c00"
+  ],
+  "context_chars": 2009,
+  "elapsed_ms": 270.9,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q02",
+  "question": "How many comparison operators does Python have?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p098-c00",
+    "page": 98,
+    "score": 0.032266458495966696,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p109-c01",
+    "page": 109,
+    "score": 0.030886196246139225,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p110-c01",
+    "page": 110,
+    "score": 0.030776515151515152,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p098-c00",
+   "openstax-python-p109-c01",
+   "openstax-python-p110-c01"
+  ],
+  "context_chars": 2147,
+  "elapsed_ms": 30.1,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q03",
+  "question": "What goes wrong if I write is_zero = num=0 to check whether num is zero?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p099-c00",
+    "page": 99,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p101-c01",
+    "page": 101,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p102-c00",
+    "page": 102,
+    "score": 0.03149801587301587,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p099-c00",
+   "openstax-python-p101-c01",
+   "openstax-python-p102-c00"
+  ],
+  "context_chars": 1824,
+  "elapsed_ms": 29.4,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q04",
+  "question": "How many spaces per indentation level does PEP 8 recommend?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p110-c01",
+    "page": 110,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p100-c02",
+    "page": 100,
+    "score": 0.032266458495966696,
+    "hit": true
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p116-c02",
+    "page": 116,
+    "score": 0.03200204813108039,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p110-c01",
+   "openstax-python-p100-c02",
+   "openstax-python-p116-c02"
+  ],
+  "context_chars": 1549,
+  "elapsed_ms": 28.1,
+  "cost_usd": 0.0,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q05",
+  "question": "Which operator is the exception to left associativity in Python?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p109-c00",
+    "page": 109,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p108-c00",
+    "page": 108,
+    "score": 0.03225806451612903,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p109-c01",
+    "page": 109,
+    "score": 0.03125763125763126,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p109-c00",
+   "openstax-python-p108-c00",
+   "openstax-python-p109-c01"
+  ],
+  "context_chars": 2338,
+  "elapsed_ms": 28.3,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q06",
+  "question": "Why not just use two separate if statements instead of elif when only one branch should run?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p111-c02",
+    "page": 111,
+    "score": 0.032266458495966696,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p165-c01",
+    "page": 165,
+    "score": 0.0315136476426799,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p111-c03",
+    "page": 111,
+    "score": 0.03131881575727918,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p111-c02",
+   "openstax-python-p165-c01",
+   "openstax-python-p111-c03"
+  ],
+  "context_chars": 1727,
+  "elapsed_ms": 34.9,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q07",
+  "question": "What is another name for a conditional expression?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p119-c01",
+    "page": 119,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p119-c02",
+    "page": 119,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p120-c00",
+    "page": 120,
+    "score": 0.027526395173453996,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p119-c01",
+   "openstax-python-p119-c02",
+   "openstax-python-p120-c00"
+  ],
+  "context_chars": 2257,
+  "elapsed_ms": 41.7,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q08",
+  "question": "What precedence does a conditional expression have compared to other operations?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p119-c02",
+    "page": 119,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p109-c00",
+    "page": 109,
+    "score": 0.0315136476426799,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p108-c00",
+    "page": 108,
+    "score": 0.03149801587301587,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p119-c02",
+   "openstax-python-p109-c00"
+  ],
+  "context_chars": 1656,
+  "elapsed_ms": 43.9,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q09",
+  "question": "Is the end value included in the sequence produced by range()?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p130-c00",
+    "page": 130,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p130-c01",
+    "page": 130,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p131-c01",
+    "page": 131,
+    "score": 0.031746031746031744,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p130-c00",
+   "openstax-python-p130-c01",
+   "openstax-python-p131-c01"
+  ],
+  "context_chars": 1735,
+  "elapsed_ms": 44.2,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q10",
+  "question": "What is a loop that never stops on its own called?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p126-c00",
+    "page": 126,
+    "score": 0.032266458495966696,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p137-c02",
+    "page": 137,
+    "score": 0.03128054740957967,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p138-c00",
+    "page": 138,
+    "score": 0.03125763125763126,
+    "hit": true
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p126-c00",
+   "openstax-python-p137-c02"
+  ],
+  "context_chars": 1599,
+  "elapsed_ms": 43.3,
+  "cost_usd": 0.0,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "q11",
+  "question": "After a continue statement executes, what happens next in the loop?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p139-c00",
+    "page": 139,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p137-c01",
+    "page": 137,
+    "score": 0.03200204813108039,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p140-c01",
+    "page": 140,
+    "score": 0.031024531024531024,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p139-c00",
+   "openstax-python-p137-c01",
+   "openstax-python-p140-c01"
+  ],
+  "context_chars": 1931,
+  "elapsed_ms": 42.1,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q12",
+  "question": "When is a for loop preferable to a while loop in nested loops?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p132-c02",
+    "page": 132,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p135-c00",
+    "page": 135,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p133-c00",
+    "page": 133,
+    "score": 0.03149801587301587,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p132-c02",
+   "openstax-python-p135-c00",
+   "openstax-python-p133-c00"
+  ],
+  "context_chars": 2265,
+  "elapsed_ms": 44.4,
+  "cost_usd": 0.0,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q13",
+  "question": "In this chapter, when does the else statement run?",
+  "filter": {
+   "chapter": 5
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p140-c01",
+    "page": 140,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p141-c00",
+    "page": 141,
+    "score": 0.03252247488101534,
+    "hit": true
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p125-c00",
+    "page": 125,
+    "score": 0.031746031746031744,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p140-c01",
+   "openstax-python-p141-c00",
+   "openstax-python-p125-c00"
+  ],
+  "context_chars": 2138,
+  "elapsed_ms": 44.1,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q14",
+  "question": "In this chapter, how is nesting indicated?",
+  "filter": {
+   "chapter": 4
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p116-c02",
+    "page": 116,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p095-c00",
+    "page": 95,
+    "score": 0.03149801587301587,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p095-c01",
+    "page": 95,
+    "score": 0.030621785881252923,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p116-c02",
+   "openstax-python-p095-c00",
+   "openstax-python-p095-c01"
+  ],
+  "context_chars": 1632,
+  "elapsed_ms": 46.0,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q15",
+  "question": "In this chapter, what does control flow mean?",
+  "filter": {
+   "chapter": 6
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p147-c01",
+    "page": 147,
+    "score": 0.03252247488101534,
+    "hit": false
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p151-c01",
+    "page": 151,
+    "score": 0.032266458495966696,
+    "hit": true
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p152-c00",
+    "page": 152,
+    "score": 0.0315136476426799,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p147-c01",
+   "openstax-python-p151-c01",
+   "openstax-python-p152-c00"
+  ],
+  "context_chars": 2316,
+  "elapsed_ms": 45.7,
+  "cost_usd": 0.0,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q16",
+  "question": "What is the difference between a function argument and a function parameter?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p160-c01",
+    "page": 160,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p161-c00",
+    "page": 161,
+    "score": 0.031754032258064516,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p169-c00",
+    "page": 169,
+    "score": 0.030776515151515152,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p160-c01",
+   "openstax-python-p161-c00"
+  ],
+  "context_chars": 1709,
+  "elapsed_ms": 45.7,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q17",
+  "question": "Why should a list not be used as a default parameter value?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p170-c00",
+    "page": 170,
+    "score": 0.032266458495966696,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p170-c01",
+    "page": 170,
+    "score": 0.032266458495966696,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p160-c01",
+    "page": 160,
+    "score": 0.03225806451612903,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p170-c00",
+   "openstax-python-p170-c01",
+   "openstax-python-p160-c01"
+  ],
+  "context_chars": 2316,
+  "elapsed_ms": 50.2,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q18",
+  "question": "How can code inside a function change the value of a variable defined outside it?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p157-c01",
+    "page": 157,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p162-c01",
+    "page": 162,
+    "score": 0.0315136476426799,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p155-c00",
+    "page": 155,
+    "score": 0.03149801587301587,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p157-c01",
+   "openstax-python-p162-c01",
+   "openstax-python-p155-c00"
+  ],
+  "context_chars": 2377,
+  "elapsed_ms": 47.1,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q19",
+  "question": "In this chapter, what does the outer one control when one is placed inside another?",
+  "filter": {
+   "chapter": 5
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p132-c02",
+    "page": 132,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p125-c00",
+    "page": 125,
+    "score": 0.03225806451612903,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p135-c00",
+    "page": 135,
+    "score": 0.031746031746031744,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p132-c02",
+   "openstax-python-p125-c00",
+   "openstax-python-p135-c00"
+  ],
+  "context_chars": 2263,
+  "elapsed_ms": 49.9,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q20",
+  "question": "In this chapter, what is a branch?",
+  "filter": {
+   "chapter": 4
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "openstax-python-p095-c01",
+    "page": 95,
+    "score": 0.03278688524590164,
+    "hit": true
+   },
+   {
+    "rank": 2,
+    "id": "openstax-python-p095-c00",
+    "page": 95,
+    "score": 0.03225806451612903,
+    "hit": false
+   },
+   {
+    "rank": 3,
+    "id": "openstax-python-p111-c01",
+    "page": 111,
+    "score": 0.03125763125763126,
+    "hit": false
+   }
+  ],
+  "context_ids": [
+   "openstax-python-p095-c01",
+   "openstax-python-p095-c00",
+   "openstax-python-p111-c01"
+  ],
+  "context_chars": 1590,
+  "elapsed_ms": 49.0,
+  "cost_usd": 0.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ }
+]

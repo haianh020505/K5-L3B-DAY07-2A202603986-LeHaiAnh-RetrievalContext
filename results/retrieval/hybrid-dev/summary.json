@@ -1,0 +1,17 @@
+{
+ "config": "hybrid",
+ "corpus": "day7",
+ "top_k": 3,
+ "budget": 800,
+ "max_searches": 3,
+ "method": "hybrid",
+ "hypothesis": "RRF of dense + BM25 recovers misses of either one.",
+ "split": "dev",
+ "n": 20,
+ "hit1": "16/20",
+ "hit3": "20/20",
+ "context_hit": "7/20",
+ "avg_context_chars": 560,
+ "median_ms": 40.35,
+ "cost_usd": 0.0
+}
